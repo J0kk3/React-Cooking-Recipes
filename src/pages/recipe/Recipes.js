@@ -1,7 +1,7 @@
 //Styles
 import './Recipes.css';
 
-export default function create ()
+export default function Recipes ()
 {
     return (
         <div>

@@ -1,7 +1,7 @@
 //Styles
 import './Search.css';
 
-export default function create ()
+export default function Search ()
 {
     return (
         <div>
