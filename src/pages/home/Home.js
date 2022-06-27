@@ -11,6 +11,7 @@ export default function Home ()
     const [ data, setData ] = useState( null );
     const [ isPending, setIsPending ] = useState( false );
     const [ error, setError ] = useState( false );
+
     useEffect( () =>
     {
         setIsPending( true )
@@ -35,8 +36,8 @@ export default function Home ()
             }
         } ).catch( err =>
         {
-            setError( err.message )
-            setIsPending( false )
+            setError( err.message );
+            setIsPending( false );
         } )
 
     }, [] );
