@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useFetch } from '../../hooks/useFetch';
 
 
@@ -14,7 +14,7 @@ export default function Create ()
     const [ newIngredient, setNewIngredient ] = useState( '' );
     const [ ingredients, setIngredients ] = useState( [] );
     const ingredientInput = useRef( null );
-    const history = useHistory();
+    const history = useNavigate();
 
     const { postData, data, error } = useFetch( "http://localhost:3000/recipes", "POST" );
 
