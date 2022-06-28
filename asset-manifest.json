@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-cooking-recipes/static/css/main.2566d3c4.css",
+    "main.js": "/react-cooking-recipes/static/js/main.ac2a616e.js",
+    "index.html": "/react-cooking-recipes/index.html",
+    "static/media/mode-icon.svg": "/react-cooking-recipes/static/media/mode-icon.18c28fe17c345416a73d3e3551755d66.svg",
+    "static/media/trashcan.svg": "/react-cooking-recipes/static/media/trashcan.45d41f106637a0ec920a305cd2dfda1a.svg",
+    "main.2566d3c4.css.map": "/react-cooking-recipes/static/css/main.2566d3c4.css.map",
+    "main.ac2a616e.js.map": "/react-cooking-recipes/static/js/main.ac2a616e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2566d3c4.css",
+    "static/js/main.ac2a616e.js"
+  ]
+}
