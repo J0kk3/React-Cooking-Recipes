@@ -19,7 +19,7 @@ export default function Recipes ()
     {
         setIsPending( true );
 
-        const unsub = projectFirestore.collection( 'recipes' ).doc( id ).onShapshot( ( doc ) =>
+        const unsub = projectFirestore.collection( 'recipes' ).doc( id ).onSnapshot( doc =>
         {
             if ( doc.exists )
             {
